@@ -6,11 +6,14 @@ This project build a Sequential model to predict digit images. Images are pre-pr
 
 ```
 cd scripts
-python ocr_keras.py
 ```
 
-- Force creating and training new model:
-
+- Create model, train and run it:
 ```
 python ocr_keras.py 1
+```
+
+- Run with saved model
+```
+python ocr_keras.py
 ```
